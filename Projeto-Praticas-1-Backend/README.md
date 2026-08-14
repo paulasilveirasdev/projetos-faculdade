@@ -1,0 +1,31 @@
+Projeto Práticas 1 — Backend
+Análise de comunicação Cliente-Servidor
+Análise técnica da comunicação entre Front-end, API e Back-end utilizando o YouTube como aplicação web de estudo.
+
+Objetivo
+Investigar o fluxo de comunicação entre o cliente e o servidor por meio da ferramenta Network do Google Chrome DevTools.
+Aplicação analisada
+YouTube
+Tecnologias e conceitos analisados
+- Front-end
+- Back-end
+- APIs
+- HTTP
+- JSON
+- DevTools Network
+- Requisições HTTP
+- Códigos de status
+
+Principais requisições analisadas
+| Endpoint | Método | Status | Finalidade |
+|---|---|---|---|
+| `/youtubei/v1/search` | POST | 200 OK | Processamento da pesquisa |
+| `/videoplayback` | POST | 200 OK | Reprodução do vídeo |
+| `/api/timedtext` | GET | 200 OK | Dados de texto/legendas |
+| `/api/stats/qoe` | POST | 204 | Qualidade da reprodução |
+| `/api/stats/atr` | POST | 204 | Telemetria da reprodução |
+
+Fluxo analisado
+Usuário → Front-end → API → Back-end → Resposta → Front-end → Resultado
+Aprendizados
+A atividade permitiu observar na prática como uma aplicação web realiza requisições HTTP e como APIs fazem a comunicação entre o cliente e os serviços de back-end.
